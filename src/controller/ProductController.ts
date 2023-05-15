@@ -1,4 +1,6 @@
 import {Request, Response} from "express"
+import { ProductDTO } from "../dtos/ProductDTO"
+import { ProductBusiness } from "../business/ProductBusiness"
 
 export class ProductController{
     constructor(
